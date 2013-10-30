@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flatulator</string>
+    <string name="action_settings">Settings</string>
+    <string name="bean_fart">Bean Fart</string>
+    <string name="motor_fart">Motor Fart</string>
+    <string name="quick_fart">Quick Fart</string>
+    <string name="windy_fart">Windy Fart</string>
+    <string name="squeaky_fart">Squeeky Fart</string>
+    <string name="rigid_fart">Rigid Fart</string>
+    <string name="wet_fart">Wet Fart</string>
+    <string name="title_activity_fartbox_splash_screen">FartboxSplashScreen</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

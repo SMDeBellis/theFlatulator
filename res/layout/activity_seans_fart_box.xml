@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_bottom_margin"
+    android:paddingLeft="@dimen/activity_side_margin"
+    android:paddingRight="@dimen/activity_side_margin"
+    android:paddingTop="@dimen/activity_top_margin"
+    android:background="@drawable/fartboxbackground"
+    tools:context=".SeansFartBox" >
+
+    <Button
+        android:id="@+id/beanButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/fartbutton"
+        android:text="@string/bean_fart" />
+
+    <Button
+        android:id="@+id/MotorButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/fartbutton"
+        android:text="@string/motor_fart" />
+
+    <Button
+        android:id="@+id/QuickButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/fartbutton"
+        android:text="@string/quick_fart" />
+
+    <Button
+        android:id="@+id/windyButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/fartbutton"
+        android:text="@string/windy_fart" />
+
+    <Button
+        android:id="@+id/squeakyButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/fartbutton"
+        android:text="@string/squeaky_fart" />
+    
+    <Button
+        android:id="@+id/rigidButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/fartbutton"
+        android:text="@string/rigid_fart" />
+    
+    <Button
+        android:id="@+id/wetButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/fartbutton"
+        android:text="@string/wet_fart" />
+    
+</LinearLayout>
