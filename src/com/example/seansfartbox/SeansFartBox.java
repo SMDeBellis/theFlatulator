@@ -13,8 +13,8 @@ import android.widget.Button;
 public class SeansFartBox extends Activity {
 	
 	private AudioManager audioManager = null;
-	int currentVolume;
-	int maxVolume;
+	static int currentVolume;
+	static int maxVolume;
 	
 	Button fart1;
 	Button fart2;
@@ -38,9 +38,9 @@ public class SeansFartBox extends Activity {
         setContentView(R.layout.activity_seans_fart_box);
     
         audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
-        currentVolume = audioManager.getStreamVolume(audioManager.STREAM_MUSIC);
-        maxVolume = audioManager.getStreamMaxVolume(audioManager.STREAM_MUSIC);
-        audioManager.setStreamVolume(audioManager.STREAM_MUSIC, maxVolume, 0);
+        currentVolume = audioManager.getStreamVolume(AudioManager.STREAM_MUSIC);
+        maxVolume = audioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
+        audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, maxVolume, 0);
         
         fart1 = (Button) findViewById(R.id.beanButton);
         fart2 = (Button) findViewById(R.id.MotorButton);
@@ -179,7 +179,7 @@ public class SeansFartBox extends Activity {
 		player6.release();
 		player7.release();
 		
-		audioManager.setStreamVolume(audioManager.STREAM_MUSIC, currentVolume, 0);
+		audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, currentVolume, 0);
 		
 	}
     
